@@ -1,0 +1,105 @@
+.porta_section .row > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
+  
+  .porta_section .box {
+    margin: 10px;
+    height: 100%;
+    position: relative;
+    min-height: 175px;
+  }
+  
+  .porta_section .box img {
+    width: 100%;
+    min-height: 100%;
+  }
+  
+  .porta_section .box .detail-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #ffffff;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  
+  .porta_section .box .detail-box h2 {
+    font-weight: bold;
+  }
+  
+  .porta_section .box .detail-box a {
+    display: inline-block;
+    padding: 8px 40px;
+    background-color: transparent;
+    color: #fd9c6b;
+    border-radius: 0;
+    border: 1px solid #fd9c6b;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    margin-top: 10px;
+  }
+  
+  .porta_section .box .detail-box a:hover {
+    background-color: #fd9c6b;
+    color: #ffffff;
+  }
+  
+  .porta_section .box.offer-box1 {
+    min-height: 225px;
+  }
+  
+  .porta_section .box.offer-box1 .detail-box {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  
+  .porta_section .box.offer-box1 .detail-box h2 {
+    font-size: 3rem;
+  }
+  
+  .offer_section .box.offer-box2 .detail-box h2, .offer_section .box.offer-box3 .detail-box h2 {
+    font-size: 2rem;
+  }
+  
+  .porta_section .box.offer-box2 .detail-box {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  
+  .porta_section .box.offer-box3 .detail-box {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
