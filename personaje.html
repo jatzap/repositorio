@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Carrusel</title>
+    <link rel="stylesheet" href="css/peronaje.css">
+</head>
+<body>
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">Quien Soy</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <!--aca va tu foto chiquita en el circulo-->
+                    <img src="imagenes/logo.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Jatzbleydy Zapata</h5>
+                        <div class="brand-subtitle">Diseñadora Grafica | Produccion Multimedia</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="portafolio.html" class="nav-link">Portafolio</a>
+                </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carrusel -->
+    <div class="carousel">
+        <div class="slides">
+            <img src="imagenes/fichaUno.png" alt="">
+            <img src="imagenes/fichaDos.png" alt="">
+            <img src="imagenes/fichaTres.png" alt="">
+            <img src="imagenes/fichaCuatro.png" alt="">
+            <img src="imagenes/fichaCinco.png" alt="">
+            <img src="imagenes/fichaSeis.png" alt="">
+            <img src="imagenes/fichaSiete.png" alt="">
+            <img src="imagenes/fichaOcho.png" alt="">
+            <img src="imagenes/fichaNueve.png" alt="">
+        </div>
+    </div>
+
+    <!-- Sección de texto principal -->
+    <section class="intro">
+        <h1>Conoce a el personaje del proyecto Macdjy</h1>
+        <p>Aquí verás su proceso.</p>
+    </section>
+
+    <!-- Secciones múltiples -->
+    <section class="section section-1" style="justify-content: center; text-align: center;">
+        <div class="text">
+            <h2>360</h2>
+            <p>Estas son las vistas de Jhon Jairo (Alias J.J).</p>
+        </div>
+        <video src="imagenes/vistas.mp4" autoplay muted loop playsinline style="width: 50%; border-radius: 10% ;"></video>
+    </section>
+
+    <section class="section section-2" style="justify-content: center; text-align: center;">
+        <video src="imagenes/docePrincipios.mp4"autoplay muted loop playsinline style="width: 50%; border-radius: 10% ;"></video>
+        <div class="text">
+            <h2>Principios De Animacion</h2>
+            <p>¿Eres capaz de notar los 12 principios de la animación?</p>
+        </div>
+    </section>
+
+    <section class="section section-3">
+        <div class="overlay">
+            <h2>Derecho Y Deber</h2>
+            <p>Aquí, Jhon Jairo (Alias J.J) habla de la importancia de un deber y un derecho. <br> Disfruta de este vídeo, no te preocupes, no dura mucho.</p>
+        </div>
+       <video src=""></video>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
