@@ -6848,16 +6848,24 @@ footer {
 .section .text {
     width: 50%;
 }
-
-/* Sección 3 con fondo */
-.section-3 {
-    width: 50%;
+}
+footer{
+   justify-content: center;
+   position: static;
+   align-items: center;
+   
 }
 
-.section-3 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
-    text-align: center;
-    border-radius: 10px;
+footer p{
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
 }
+
+footer li {
+  padding: 10px;
+  align-items: center ;
+  display: inline-block;
+  margin-right: 10px; /* espacio entre ellos */
 }
